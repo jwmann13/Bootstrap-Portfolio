@@ -1,27 +1,49 @@
-.jumbotron hr{
+.jumbotron {
+    min-height: 88vh;
+    padding: 1.25rem;
+}
+.jumbotron hr {
+    /* min-height: 98vh; */
     margin-top: 0px;
     border-top: 2px solid #b4b4b4;
     width: 95%;
 }
-.padding{
+
+.padding {
     padding-bottom: 2rem;
 }
-.fa-github{
+
+.fa-github {
     color: #000000;
     font-size: 2rem;
     margin: 1rem;
 }
-.fa-github:hover{
+
+.fa-github:hover {
     color: #b4b4b4;
     font-size: 2rem;
     margin: 1rem;
 }
-.fa-envelope-open{
+
+.fa-envelope-open {
     color: #000000;
     font-size: 2rem;
     margin: 1rem;
 }
-.fa-envelope-open:hover{
+
+.fa-envelope-open:hover {
+    color: #b4b4b4;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.fa-linkedin {
+    color: #000000;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.fa-linkedin:hover {
     color: #b4b4b4;
     font-size: 2rem;
     margin: 1rem;
