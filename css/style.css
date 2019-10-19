@@ -1,12 +1,22 @@
 .jumbotron {
     min-height: 88vh;
     padding: 1.25rem;
+    background-image: linear-gradient(rgb(255, 193, 193), rgb(255, 255, 255));
+    border-radius: 0%;
 }
 .jumbotron hr {
     /* min-height: 98vh; */
     margin-top: 0px;
     border-top: 2px solid #b4b4b4;
     width: 95%;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 2%, rgb(255, 193, 193) 50%);
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 20%, rgb(255, 193, 193) 50%, rgb(255, 255, 255) 80%);
 }
 
 .padding {
