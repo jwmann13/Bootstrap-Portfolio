@@ -28,13 +28,16 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,400,400i,600,700&display=swap"
+        rel="stylesheet">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/d64d6272c5.js"></script>
 </head>
 
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" id="nav-head">
         <div class="container">
             <!-- Site Title -->
             <a href="index.html" class="navbar-brand">Jeffrey Mann</a>
@@ -45,15 +48,15 @@
             </button>
             <!-- Nav Links -->
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,35 +64,135 @@
     </nav>
 
     <!-- Body -->
-    <div class="jumbotron padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h1 class="display-4 text-center text-md-left">About Me</h1>
+    <div data-spy="scroll" data-target="#nav-head" data-offset="0">
+        <div class="jumbotron" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h1 class="display-4 text-center text-md-left">About Me</h1>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <hr>
+                <div class="row justify-content-center">
+                    <img src="images/jiff.gif" alt="My GF made this!"
+                        class="img-fluid mb-4 mb-md-auto col-12 col-md-6 col-lg-5" style="height:auto;">
+                    <p class="lead pull-left mb-5 mb-md-2 mb-lg-2 col-12 col-md-6 col-lg-7" style="float:none;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae laborum adipisci
+                        et
+                        odit
+                        aliquam totam veniam sequi. Tempore modi ratione eum labore ipsam! Voluptatum iure unde
+                        consequuntur
+                        maiores voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam, dicta
+                        eos
+                        labore laboriosam inventore odit blanditiis quidem optio consequuntur modi amet veritatis
+                        suscipit
+                        saepe
+                        officiis distinctio accusantium perferendis maiores. Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Fugiat, nobis deleniti ratione laboriosam, architecto eius ut est sed cupiditate nulla
+                        ipsa,
+                        dignissimos ipsam! Laborum assumenda repellat numquam ex aut sit. Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Veritatis mollitia libero maxime nostrum, iusto expedita
+                        necessitatibus
+                        quod nisi pariatur, nihil enim architecto dicta, hic accusamus ipsam aut dolorum commodi
+                        exercitationem.
+                    </p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <img src="images/jiff.gif" alt="My GF made this!"
-                    class="img-fluid mb-2 mb-md-auto col-12 col-md-6 col-lg-5" style="height:auto;">
-                <p class="lead pull-left mb-5 mb-md-2 mb-lg-2 col-12 col-md-6 col-lg-7" style="float:none;">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae laborum adipisci et
-                    odit
-                    aliquam totam veniam sequi. Tempore modi ratione eum labore ipsam! Voluptatum iure unde consequuntur
-                    maiores voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam, dicta eos
-                    labore laboriosam inventore odit blanditiis quidem optio consequuntur modi amet veritatis suscipit
-                    saepe
-                    officiis distinctio accusantium perferendis maiores. Lorem ipsum dolor sit amet consectetur
-                    adipisicing
-                    elit. Fugiat, nobis deleniti ratione laboriosam, architecto eius ut est sed cupiditate nulla ipsa,
-                    dignissimos ipsam! Laborum assumenda repellat numquam ex aut sit. Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Veritatis mollitia libero maxime nostrum, iusto expedita
-                    necessitatibus
-                    quod nisi pariatur, nihil enim architecto dicta, hic accusamus ipsam aut dolorum commodi
-                    exercitationem.
-                </p>
+        </div>
+
+        <div class="jumbotron" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-4 text-center text-md-left">Portfolio</h1>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="card p-0 mb-2">
+                            <a href="https://jwmann13.github.io/gt-project-1-group-11/" class="card-link"><img
+                                    src="images/medical-logo.png" alt="" class="card-img-top"
+                                    style="background-color: black;"></a>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Pain Treatment Plan</h5>
+                                <p class="card-text">
+                                    A system for doctors to keep data on multiple patient's pain symptoms to create
+                                    plans
+                                    for treatment and medication.
+                                </p>
+                                <a href="https://www.github.com/jwmann13/gt-project-1-group-11"><i
+                                        class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card p-0 mb-2">
+                            <a href="https://jwmann13.github.io/word-guess-game/" class="card-link"><img
+                                    src="images/froot-0.jpeg" alt="" class="card-img-top"></a>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Fruity Hangman</h5>
+                                <p class="card-text">
+                                    A hangman-style game with a fruity twist! Images created by Reagan Floyd.
+                                </p>
+                                <a href="https://www.github.com/jwmann13/word-guess-game"><i
+                                        class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card p-0 mb-2">
+                            <a href="https://jwmann13.github.io/trivia-game/" class="card-link"><img
+                                    src="images/memphis-colorful.png" alt="" class="card-img-top"></a>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Classical Music Trivia</h5>
+                                <p class="card-text">
+                                    A timed triva game with questions about classical music.
+                                </p>
+                                <a href="https://www.github.com/jwmann13/trivia-game"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-4 text-center text-md-left">Contact</h1>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMsg">Message</label>
+                        <textarea class="form-control" id="inputMsg" rows="3" placeholder="Your message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
