@@ -34,6 +34,15 @@ a:hover {
     text-emphasis: none;
 }
 
+.nav-link {
+    color: #aaaaaa;
+}
+
+.footer {
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 8%, rgb(255, 216, 216));
+}
+
 .sec-title {
     opacity: 0;
     transform: translateX(-4rem);
@@ -47,13 +56,9 @@ a:hover {
     transform: translateX(0rem);
 }
 
-.nav-link {
-    color: #aaaaaa;
-}
-
-.footer {
-    background-color: white;
-    background-image: linear-gradient(to right, rgb(255, 255, 255) 8%, rgb(255, 216, 216));
+#about-img {
+    width: 100%;
+    height: auto;
 }
 
 /* Icons */
