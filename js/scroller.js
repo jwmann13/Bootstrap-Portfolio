@@ -4,7 +4,7 @@ $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
             $('html, body').animate({
-                scrollTop: (target.offset().top - 56)
+                scrollTop: (target.offset().top - 80)
             }, 1000);
             return false;
         }
@@ -19,7 +19,7 @@ $('.js-scroll-trigger').click(function () {
 // Activate scrollspy to add active class to navbar items on scroll
 $('body').scrollspy({
     target: '#nav-head',
-    offset: 200
+    offset: 80
 });
 
 
